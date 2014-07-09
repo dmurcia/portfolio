@@ -2014,7 +2014,7 @@ button.close { padding: 0; cursor: pointer; background: transparent; border: 0; 
 a:hover { text-decoration: none; }
 
 header .jumbotron { position: relative; min-height: 780px; margin: 0; padding: 0; background-color: #181b22; }
-header .jumbotron .content-title { position: absolute; top: 50%; left: 50%; width: 920px; padding: 50px 60px; -webkit-transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); -o-transform: translate(-50%, -50%); transform: translate(-50%, -50%); border: 1px solid #7e8084; background-color: #0c0d11; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 0.7; }
+header .jumbotron .content-primary-title { position: absolute; top: 50%; left: 50%; width: 920px; padding: 50px 60px; -webkit-transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); -o-transform: translate(-50%, -50%); transform: translate(-50%, -50%); border: 1px solid #7e8084; background-color: #0c0d11; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70); opacity: 0.7; }
 header .jumbotron h1, header .jumbotron h2 { margin: 0; font-family: open_sansbold, Arial, Helvetica, sans-serif; text-align: center; color: white; }
 header .jumbotron h1 { font-size: 62px; font-size: 6.2rem; }
 header .jumbotron h2 { font-size: 34px; font-size: 3.4rem; }
@@ -2025,3 +2025,18 @@ nav ul li { display: inline-block; }
 nav ul li:hover { background-color: #1b1f29; }
 nav ul li a { display: block; padding: 26px 23px; font-size: 14px; font-size: 1.4rem; color: #c3c8d6; }
 nav ul li a:hover { color: white; }
+
+section { padding: 95px 0; }
+
+#about-me { background-color: #00bdbd; }
+
+.content-title { margin-bottom: 70px; text-align: center; }
+.content-title h3, .content-title p { margin: 0; color: white; }
+.content-title h3 { font-family: open_sanslight, Arial, Helvetica, sans-serif; font-size: 36px; font-size: 3.6rem; }
+
+.content-text { color: white; }
+.content-text h5, .content-text p { margin-bottom: 30px; }
+.content-text h4 { font-size: 24px; font-size: 2.4rem; }
+.content-text h5 { font-family: open_sansbold, Arial, Helvetica, sans-serif; font-size: 18px; font-size: 1.8rem; }
+
+.content-profile-img { width: 294px; height: 294px; background-color: #262b37; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%; border-radius: 50%; }

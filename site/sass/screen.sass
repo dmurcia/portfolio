@@ -7,7 +7,7 @@ a:hover
 	text-decoration: none
 
 // CUSTOM STYLES
-
+// HEADER
 header
 	.jumbotron
 		position: relative
@@ -15,7 +15,7 @@ header
 		margin: 0
 		padding: 0
 		background-color: $blue-darker
-		.content-title
+		.content-primary-title
 			position: absolute
 			top: 50%
 			left: 50%
@@ -35,6 +35,7 @@ header
 		h2
 			+font-size(34)
 
+// NAVIGATION
 nav
 	margin: 0
 	background-color: $blue-dark
@@ -53,3 +54,36 @@ nav
 				color: #c3c8d6
 				&:hover
 					color: white
+
+section
+	padding: 95px 0
+
+// SECTION: ABOUT ME
+#about-me
+	background-color: $green-light
+
+.content-title
+	margin-bottom: 70px
+	text-align: center
+	h3, p
+		margin: 0
+		color: white
+	h3
+		font-family: $font-family-light
+		+font-size(36)
+
+.content-text
+	color: white
+	h5, p
+		margin-bottom: 30px
+	h4
+		+font-size(24)
+	h5
+		font-family: $font-family-bold
+		+font-size(18)
+
+.content-profile-img
+	width: 294px
+	height: 294px
+	background-color: $blue-dark
+	+border-radius(50%)
