@@ -1,0 +1,55 @@
+@import config.sass
+@import compass/css3
+
+// BASE STYLES
+
+a:hover
+	text-decoration: none
+
+// CUSTOM STYLES
+
+header
+	.jumbotron
+		position: relative
+		min-height: 780px
+		margin: 0
+		padding: 0
+		background-color: $blue-darker
+		.content-title
+			position: absolute
+			top: 50%
+			left: 50%
+			width: 920px
+			padding: 50px 60px
+			+transform(translate(-50%, -50%))
+			border: 1px solid #7e8084
+			background-color: #0c0d11
+			+opacity(0.7)
+		h1, h2
+			margin: 0
+			font-family: $font-family-bold
+			text-align: center
+			color: white
+		h1
+			+font-size(62)
+		h2
+			+font-size(34)
+
+nav
+	margin: 0
+	background-color: $blue-dark
+	ul
+		width: 682px
+		margin: 0 auto
+		padding: 0
+		li
+			display: inline-block
+			&:hover
+				background-color: #1b1f29
+			a
+				display: block
+				padding: 26px 23px
+				+font-size(14)
+				color: #c3c8d6
+				&:hover
+					color: white
