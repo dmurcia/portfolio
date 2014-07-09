@@ -1,0 +1,32 @@
+/* BOOTSTRAP VARIABLES */
+
+/* SCAFFOLDING */
+
+$body-bg:#eeeeee;
+ $text-color:#84868d;
+
+/* GRID SYSTEM */
+
+$grid-gutter-width:10px;
+
+/* CONTAINER SIZES */
+
+$container-large-desktop:930px;
+ $container-desktop:930px;
+
+/* TYPOGRAPHY */
+$font-family-base: 
+
+/* COLORS VARIABLES */
+
+$blue-darker:#181b22;
+ $blue-dark:#262b37;
+ $blue-light:#2bb3dd;
+ $green-light:#00bdbd;
+ $red-light:#ff675f;
+
+/* IMPORTS */
+
+@import"bootstrap-compass";
+
+@import"bootstrap";
