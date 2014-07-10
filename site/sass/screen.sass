@@ -3,6 +3,9 @@
 
 // BASE STYLES
 
+*:focus
+	outline: 0
+
 a:hover
 	text-decoration: none
 
@@ -14,6 +17,12 @@ a:hover
 
 .btn-blue
 	background-color: $blue
+	color: white
+	&:hover
+		color: white
+
+.btn-red
+	background-color: $red-light
 	color: white
 	&:hover
 		color: white
@@ -154,7 +163,7 @@ section
 			&:before
 				content: ""
 				position: absolute
-				left: 32px
+				left: 33px
 				+size(0, 0)
 				border-top: 12px solid transparent
 				border-bottom: 12px solid transparent
@@ -184,3 +193,53 @@ section
 		background-color: #fafafa
 		&:before
 			border-right: 15px solid #fafafa
+
+// SECTION: PORTFOLIO
+#portfolio
+	background-color: $blue-light
+
+.content-portfolio-items
+	.content-item
+		height: 230px
+		margin: 0 0 7px 0
+		background-color: $blue
+
+// SECTION: CONTACT
+#contact
+	padding: 95px 0
+	background-color: $blue
+	.content-footer
+		h2
+			margin-bottom: 25px
+			font-family: $font-family-bold
+			+font-size(18)
+			color: white
+			text-transform: uppercase
+	.content-contact
+		p
+			padding: 0 0 0 30px
+			&:before
+				content: ""
+				position: absolute
+				left: 2%
+				+size(17px, 17px)
+				background-color: #858790
+	.content-message
+		input, textarea
+			padding: 0 30px
+			border: none
+			background-color: #585f73
+			+font-size(13)
+			color: white
+		input
+			+size(100%, 50px)
+			margin: 0 0 10px 0
+		textarea
+			width: 100%
+			min-height: 130px
+			padding-top: 20px
+	.btn-send
+		margin-top: 40px
+
+// SECTION: SOCIAL
+#social
