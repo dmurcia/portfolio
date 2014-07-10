@@ -6,6 +6,18 @@
 a:hover
 	text-decoration: none
 
+.btn
+	padding: 16px 22px
+	border-radius: 0
+	font-family: $font-family-bold
+	+font-size(16)
+
+.btn-blue
+	background-color: $blue
+	color: white
+	&:hover
+		color: white
+
 // CUSTOM STYLES
 // HEADER
 header
@@ -57,20 +69,20 @@ nav
 
 section
 	padding: 95px 0
+	.content-title
+		margin-bottom: 70px
+		text-align: center
+		h3, p
+			margin: 0
+			color: white
+		h3
+			font-family: $font-family-light
+			+font-size(36)
+			text-transform: uppercase
 
 // SECTION: ABOUT ME
 #about-me
 	background-color: $green-light
-
-.content-title
-	margin-bottom: 70px
-	text-align: center
-	h3, p
-		margin: 0
-		color: white
-	h3
-		font-family: $font-family-light
-		+font-size(36)
 
 .content-text
 	color: white
@@ -87,3 +99,28 @@ section
 	height: 294px
 	background-color: $blue-dark
 	+border-radius(50%)
+
+// SECTION: TECHNICAL SKILLS
+#tech-skills
+	.content-title
+		h3
+			color: $red-light
+		p
+			color: $blue
+
+.content-skill
+	margin-bottom: 50px
+	text-align: center
+	.content-amount
+		margin-bottom: 35px
+	.content-description
+		width: 55%
+		margin: 0 auto
+		h4
+			margin-bottom: 20px
+			font-family: $font-family-bold
+			+font-size(18)
+			color: $blue
+		p
+			+font-size(13)
+			color: #84868d
