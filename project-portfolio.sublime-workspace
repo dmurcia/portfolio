@@ -4,16 +4,64 @@
 		"selected_items":
 		[
 			[
-				"bl",
-				"blue	blue()"
+				"blue-da",
+				"blue-dark"
 			],
 			[
-				"ma",
-				"margin-bottom"
+				"mar",
+				"margin-top"
+			],
+			[
+				"padd",
+				"padding-top"
 			],
 			[
 				"font",
 				"font-size"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"fonta",
+				"font-family-bold"
+			],
+			[
+				"le",
+				"left"
+			],
+			[
+				"pos",
+				"pos:a	position:absolute"
+			],
+			[
+				"content",
+				"content-item"
+			],
+			[
+				"tran",
+				"transform"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"boir",
+				"border-radius"
+			],
+			[
+				"red",
+				"red-light"
+			],
+			[
+				"bl",
+				"blue	blue()"
 			],
 			[
 				"ce",
@@ -24,16 +72,8 @@
 				"border-radius"
 			],
 			[
-				"mar",
-				"margin-bottom"
-			],
-			[
 				"fon",
 				"font-size"
-			],
-			[
-				"text",
-				"text-align"
 			],
 			[
 				"backg",
@@ -48,16 +88,8 @@
 				"inline-block"
 			],
 			[
-				"padd",
-				"padding"
-			],
-			[
 				"po",
 				"pos:r	position:relative"
-			],
-			[
-				"pos",
-				"pos:a	position:absolute"
 			],
 			[
 				"tras",
@@ -79,15 +111,7 @@
 			"file": "site/index.html",
 			"settings":
 			{
-				"buffer_size": 5921,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "site/sass/config.sass",
-			"settings":
-			{
-				"buffer_size": 735,
+				"buffer_size": 16959,
 				"line_ending": "Windows"
 			}
 		},
@@ -95,16 +119,24 @@
 			"file": "site/sass/screen.sass",
 			"settings":
 			{
-				"buffer_size": 2043,
-				"line_ending": "Unix"
+				"buffer_size": 5611,
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "site/styles/screen.css",
+			"file": "site/sass/config.sass",
 			"settings":
 			{
-				"buffer_size": 133128,
-				"line_ending": "Unix"
+				"buffer_size": 1570,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "site/sass/bootstrap-custom.sass",
+			"settings":
+			{
+				"buffer_size": 1282,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -152,13 +184,20 @@
 	},
 	"file_history":
 	[
-		"/C/Users/jose.ocampo/Projects/Portfolio/site/config.rb",
-		"/C/Users/jose.ocampo/AppData/Roaming/Sublime Text 3/Packages/Tag/Tag Package.sublime-settings",
-		"/C/Users/jose.ocampo/AppData/Roaming/Sublime Text 3/Packages/User/SassBeautify.sublime-settings",
-		"/C/Users/jose.ocampo/Projects/Portfolio/site/sass/print.sass",
 		"/C/Users/jose.ocampo/Projects/Portfolio/site/sass/fonts.sass",
-		"/C/Users/jose.ocampo/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/jose.ocampo/Projects/Portfolio/site/other.html",
+		"/C/Users/jose.ocampo/Projects/Portfolio/site/sass/screen.sass",
+		"/C/Users/jose.ocampo/AppData/Roaming/Sublime Text 3/Packages/User/SassBeautify.sublime-settings",
 		"/C/Users/jose.ocampo/AppData/Roaming/Sublime Text 3/Packages/SassBeautify/SassBeautify.sublime-settings",
+		"/C/Users/jose.ocampo/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/jose.ocampo/Projects/Portfolio/site/sass/bootstrap-custom.sass",
+		"/C/Users/jose.ocampo/Projects/Portfolio/site/sass/config.sass",
+		"/C/Users/jose.ocampo/Projects/Portfolio/site/styles/screen.css",
+		"/C/Users/jose.ocampo/Projects/Portfolio/site/config.rb",
+		"/C/Users/jose.ocampo/Projects/Portfolio/site/styles/config.css",
+		"/C/Users/jose.ocampo/Projects/Portfolio/site/styles/bootstrap-custom.css",
+		"/C/Users/jose.ocampo/AppData/Roaming/Sublime Text 3/Packages/Tag/Tag Package.sublime-settings",
+		"/C/Users/jose.ocampo/Projects/Portfolio/site/sass/print.sass",
 		"/C/Users/jose.ocampo/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
 		"/C/Users/jose.ocampo/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
 		"/C/Users/jose.ocampo/Projects/Portfolio/site/sass/fonts.scss",
@@ -242,6 +281,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"1px solid #dedddd\n			.content-description\n				backgroun",
+			"&",
 			"474d5d",
 			"media",
 			"chevron-container",
@@ -289,7 +330,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -298,15 +339,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5921,
+						"buffer_size": 16959,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2579,
-								2579
+								383,
+								383
 							]
 						],
 						"settings":
@@ -316,69 +357,65 @@
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 688.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "site/sass/screen.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5611,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								397,
+								397
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 2,
 					"file": "site/sass/config.sass",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 735,
+						"buffer_size": 1570,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								507,
-								513
+								434,
+								434
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
+						"translation.x": -0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 2,
-					"file": "site/sass/screen.sass",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2043,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1918,
-								1918
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1189.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -386,29 +423,27 @@
 				},
 				{
 					"buffer": 3,
-					"file": "site/styles/screen.css",
+					"file": "site/sass/bootstrap-custom.sass",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 133128,
+						"buffer_size": 1282,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								775,
+								775
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
-						"translation.x": 0.0,
-						"translation.y": 15844.0,
+						"translation.x": -0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
@@ -434,18 +469,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":
@@ -479,11 +507,11 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"select_symbol":
 	{

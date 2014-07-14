@@ -2440,9 +2440,12 @@ a:hover {
 
 .btn {
   position: relative;
-  padding: 16px 22px;
+  padding: 3% 6%;
   border-radius: 0;
   font-family: open_sansbold, Arial, Helvetica, sans-serif;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.61) 0px 1px 1px 0px, rgba(0, 0, 0, 0.61) 0px 1px 2px 0px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.61) 0px 1px 1px 0px, rgba(0, 0, 0, 0.61) 0px 1px 2px 0px;
+  box-shadow: rgba(0, 0, 0, 0.61) 0px 1px 1px 0px, rgba(0, 0, 0, 0.61) 0px 1px 2px 0px;
   font-size: 16px;
   font-size: 1.6rem;
   -webkit-transition-property: all;
@@ -2459,10 +2462,10 @@ a:hover {
   transition-timing-function: ease-in;
 }
 .btn:hover {
-  padding: 16px 32px 16px 12px;
-  -webkit-box-shadow: 0 -3px 15px #434855 inset;
-  -moz-box-shadow: 0 -3px 15px #434855 inset;
-  box-shadow: 0 -3px 15px #434855 inset;
+  padding: 3% 8% 3% 4%;
+  -webkit-box-shadow: 0px 4px 10px 0 rgba(0, 0, 0, 0.61), 0px 2px 10px 0px rgba(0, 0, 0, 0.61);
+  -moz-box-shadow: 0px 4px 10px 0 rgba(0, 0, 0, 0.61), 0px 2px 10px 0px rgba(0, 0, 0, 0.61);
+  box-shadow: 0px 4px 10px 0 rgba(0, 0, 0, 0.61), 0px 2px 10px 0px rgba(0, 0, 0, 0.61);
 }
 .btn:hover .arrow {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
@@ -2486,6 +2489,7 @@ a:hover {
   color: white;
 }
 .btn-blue:hover {
+  background-color: #262b37;
   color: white;
 }
 
@@ -2494,13 +2498,14 @@ a:hover {
   color: white;
 }
 .btn-red:hover {
+  background-color: #eb6059;
   color: white;
 }
 
 .arrow {
   display: block;
   position: absolute;
-  right: 4%;
+  right: 15px;
   top: 50%;
   margin-top: -9px;
   width: 10px;
