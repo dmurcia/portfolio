@@ -48,3 +48,22 @@ $red-light: #ff675f
 =size($width, $height)
 	width: $width
 	height: $height
+
+// -------------------------------------
+// Mixin for progress-% class
+// -------------------------------------
+
+$step: 5
+
+$loops: round(100 / $step)
+$increment: 360 / $loops
+$half: round($loops / 2)
+
+@for $i from 0 through $loops
+	.progress-#{$i * $step}
+		@if $i < $half
+			$nextdeg: 90deg + $increment * $i
+			background-image: linear-gradient(90deg, #e1e1e3 50%, transparent 50%, transparent), linear-gradient($nextdeg, $red-light 50%, #e1e1e3 50%, #e1e1e3)
+		@else
+			$nextdeg: -90deg + $increment * ($i - $half)
+			background-image: linear-gradient($nextdeg, $red-light 50%, transparent 50%, transparent), linear-gradient(270deg, $red-light 50%, #e1e1e3 50%, #e1e1e3)

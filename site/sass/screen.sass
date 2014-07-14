@@ -10,10 +10,22 @@ a:hover
 	text-decoration: none
 
 .btn
+	position: relative
 	padding: 16px 22px
 	border-radius: 0
 	font-family: $font-family-bold
 	+font-size(16)
+	+transition-property(all)
+	+transition-duration(0.2s)
+	+transition-timing-function(ease-in)
+	&:hover
+		padding: 16px 32px 16px 12px
+		+box-shadow(0 -3px 15px #434855 inset)
+		& .arrow
+			+opacity(1)
+			+transition-property(opacity)
+			+transition-duration(0.2s)
+			+transition-timing-function(ease-in)
 
 .btn-blue
 	background-color: $blue
@@ -26,6 +38,19 @@ a:hover
 	color: white
 	&:hover
 		color: white
+
+.arrow
+	display: block
+	position: absolute
+	right: 4%
+	top: 50%
+	margin-top: -9px
+	+size(10px, 19px)
+	+opacity(0)
+	background: url("../images/arrow.png") no-repeat 0 0
+	+transition-property(opacity)
+	+transition-duration(0.2s)
+	+transition-timing-function(ease-in)
 
 // CUSTOM STYLES
 // HEADER
@@ -111,8 +136,14 @@ section
 
 .content-profile-img
 	+size(294px, 294px)
+	+transform(scale(0))
 	background-color: $blue-dark
 	+border-radius(50%)
+	&.active
+		+transform(scale(1, 1))
+		+transition-property(all)
+		+transition-duration(0.5s)
+		+transition-timing-function(ease-in)
 
 // SECTION: TECHNICAL SKILLS
 .content-skill
@@ -120,6 +151,25 @@ section
 	text-align: center
 	.content-amount
 		margin-bottom: 35px
+		.progress-radial
+			position: relative
+			+size(150px, 150px)
+			margin: 0 auto
+			+border-radius(50%)
+			border: 2px solid #e1e1e3
+			background-color: $red-light
+		.progress-radial .overlay
+			position: absolute
+			+size(120px, 120px)
+			left: 50%
+			top: 50%
+			+transform(translate(-50%, -50%))
+			+border-radius(50%)
+			background-color: $body-bg
+			text-align: center
+			line-height: 120px
+			font-size: 21px
+			color: $blue
 	.content-description
 		width: 55%
 		margin: 0 auto
@@ -243,3 +293,5 @@ section
 
 // SECTION: SOCIAL
 #social
+	padding: 50px 0
+	background-color: $green-light
