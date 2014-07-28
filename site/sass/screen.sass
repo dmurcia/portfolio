@@ -68,21 +68,39 @@ header
 			position: absolute
 			top: 50%
 			left: 50%
-			width: 920px
+			width: 90%
 			padding: 50px 60px
 			+transform(translate(-50%, -50%))
 			border: 1px solid #7e8084
 			background-color: #0c0d11
 			+opacity(0.7)
+			+breakpoint(large)
+				width: 920px
 		h1, h2
 			margin: 0
 			font-family: $font-family-bold
 			text-align: center
 			color: white
 		h1
-			+font-size(62)
+			+font-size(18)
+			+breakpoint(small)
+				+font-size(24)
+
+			+breakpoint(medium)
+				+font-size(32)
+
+			+breakpoint(large)
+				+font-size(62)
 		h2
-			+font-size(34)
+			+font-size(14)
+			+breakpoint(small)
+				+font-size(18)
+
+			+breakpoint(medium)
+				+font-size(24)
+
+			+breakpoint(large)
+				+font-size(34)
 
 // NAVIGATION
 nav
