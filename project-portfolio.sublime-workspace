@@ -111,31 +111,31 @@
 			"file": "site/index.html",
 			"settings":
 			{
-				"buffer_size": 16959,
+				"buffer_size": 17250,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "site/sass/screen.sass",
+			"file": "site/scripts/app/main.js",
 			"settings":
 			{
-				"buffer_size": 5611,
+				"buffer_size": 194,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "site/sass/config.sass",
+			"file": "site/scripts/app.js",
 			"settings":
 			{
-				"buffer_size": 1570,
+				"buffer_size": 116,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "site/sass/bootstrap-custom.sass",
+			"file": "site/scripts/app/navigation.js",
 			"settings":
 			{
-				"buffer_size": 1282,
+				"buffer_size": 84,
 				"line_ending": "Windows"
 			}
 		}
@@ -184,16 +184,21 @@
 	},
 	"file_history":
 	[
+		"/C/Users/jose.ocampo/Projects/Portfolio/site/sass/screen.sass",
+		"/C/Users/jose.ocampo/Projects/Portfolio/site/sass/config.sass",
+		"/C/Users/jose.ocampo/Projects/Portfolio/site/sass/bootstrap-custom.sass",
+		"/C/Users/jose.ocampo/Projects/Portfolio/site/app.js",
+		"/C/Users/jose.ocampo/Projects/Portfolio/site/bower.json",
+		"/C/Users/jose.ocampo/Projects/Portfolio/site/scripts/lib/require.js",
+		"/C/Users/jose.ocampo/Projects/Portfolio/site/scripts/config.js",
+		"/C/Users/jose.ocampo/Projects/Portfolio/site/config.rb",
+		"/C/Users/jose.ocampo/AppData/Roaming/Sublime Text 3/Packages/LiveStyle/LiveStyle.sublime-settings",
 		"/C/Users/jose.ocampo/Projects/Portfolio/site/sass/fonts.sass",
 		"/C/Users/jose.ocampo/Projects/Portfolio/site/other.html",
-		"/C/Users/jose.ocampo/Projects/Portfolio/site/sass/screen.sass",
 		"/C/Users/jose.ocampo/AppData/Roaming/Sublime Text 3/Packages/User/SassBeautify.sublime-settings",
 		"/C/Users/jose.ocampo/AppData/Roaming/Sublime Text 3/Packages/SassBeautify/SassBeautify.sublime-settings",
 		"/C/Users/jose.ocampo/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
-		"/C/Users/jose.ocampo/Projects/Portfolio/site/sass/bootstrap-custom.sass",
-		"/C/Users/jose.ocampo/Projects/Portfolio/site/sass/config.sass",
 		"/C/Users/jose.ocampo/Projects/Portfolio/site/styles/screen.css",
-		"/C/Users/jose.ocampo/Projects/Portfolio/site/config.rb",
 		"/C/Users/jose.ocampo/Projects/Portfolio/site/styles/config.css",
 		"/C/Users/jose.ocampo/Projects/Portfolio/site/styles/bootstrap-custom.css",
 		"/C/Users/jose.ocampo/AppData/Roaming/Sublime Text 3/Packages/Tag/Tag Package.sublime-settings",
@@ -339,15 +344,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 16959,
+						"buffer_size": 17250,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								383,
-								383
+								17250,
+								17250
 							]
 						],
 						"settings":
@@ -357,35 +362,34 @@
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 4690.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "site/sass/screen.sass",
+					"file": "site/scripts/app/main.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5611,
+						"buffer_size": 194,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								397,
-								397
+								127,
+								127
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
-						"translation.x": -0.0,
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -394,27 +398,26 @@
 				},
 				{
 					"buffer": 2,
-					"file": "site/sass/config.sass",
+					"file": "site/scripts/app.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1570,
+						"buffer_size": 116,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								434,
-								434
+								116,
+								116
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
-						"translation.x": -0.0,
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -423,30 +426,30 @@
 				},
 				{
 					"buffer": 3,
-					"file": "site/sass/bootstrap-custom.sass",
+					"file": "site/scripts/app/navigation.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1282,
+						"buffer_size": 84,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								775,
-								775
+								84,
+								84
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
-						"translation.x": -0.0,
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
