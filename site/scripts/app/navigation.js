@@ -1,7 +1,8 @@
 define(function(){
 
 	return {
-		goTo: function() {
+		goTo: function(e) {
+			e.preventDefault;
 			console.log('yes');
 		}
 	}
