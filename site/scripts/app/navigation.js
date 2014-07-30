@@ -13,7 +13,19 @@ define(function(){
 		}, 1000);
 	}
 
+	var topSection = function(e) {
+		var	winTop = $(window).scrollTop()
+			elTopSection = $('.section-top').offset().top;
+
+
+		if (winTop == elTopSection) {
+			console.log('si');	
+		}
+		
+	}
+
 	return {
-		goTo: goTo
+		goTo: goTo,
+		top: topSection
 	}
 });
