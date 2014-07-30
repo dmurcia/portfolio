@@ -5,4 +5,4 @@ requirejs.config({
 	}
 });
 
-requirejs(['jquery.min', 'app/app']);
+requirejs(['jquery.min', 'app/main']);
