@@ -14,14 +14,12 @@ a:hover
 	padding: 3% 6%
 	border-radius: 0
 	font-family: $font-family-bold
-	+box-shadow(rgba(0, 0, 0, 0.61) 0px 1px 1px 0px, rgba(0, 0, 0, 0.61) 0px 1px 2px 0px)
 	+font-size(16)
 	+transition-property(all)
 	+transition-duration(0.2s)
 	+transition-timing-function(ease-in)
 	&:hover
 		padding: 3% 8% 3% 4%
-		+box-shadow(0px 4px 10px 0 rgba(0, 0, 0, 0.61), 0px 2px 10px 0px rgba(0, 0, 0, 0.61))
 		& .arrow
 			+opacity(1)
 			+transition-property(opacity)
@@ -176,11 +174,6 @@ section
 	+transform(scale(0))
 	background-color: $blue-dark
 	+border-radius(50%)
-	&.active
-		+transform(scale(1, 1))
-		+transition-property(all)
-		+transition-duration(0.5s)
-		+transition-timing-function(ease-in)
 
 // SECTION: TECHNICAL SKILLS
 .content-skill
@@ -336,3 +329,11 @@ section
 #social
 	padding: 50px 0
 	background-color: $green-light
+
+// SECTIONS ANIMATION
+.section-top.active-section
+	.content-profile-img
+		+transform(scale(1, 1))
+		+transition-property(all)
+		+transition-duration(0.5s)
+		+transition-timing-function(ease-in)

@@ -1,31 +1,43 @@
-define(function(){
+define(function() {
 
-	var goTo = function(e) {
-		var cTarget = $(e.currentTarget),
-			htmlbody = $('html, body'),
-			targetName = cTarget.data('ref'),
-			targetId = $('#' + targetName);
+    var initialize = function() {
+        // NAVIGATOM MODULE
+        var nav = $('.navbar');
 
-		e.preventDefault();
+        nav.on('click', 'li a', $.proxy(this.goTo, this));
 
-		htmlbody.animate({
-			scrollTop: targetId.offset().top
-		}, 1000);
-	}
+        // ACTIVE ANIMATIONS
+        this.scrollSection();
+        $(window).scroll(this.scrollSection);
+    }
 
-	var topSection = function(e) {
-		var	winTop = $(window).scrollTop()
-			elTopSection = $('.section-top').offset().top;
+    var scrollSection = function() {
+    	var windscroll = $(window).scrollTop(),
+            elTopSection = $('.section-top');
 
+    	elTopSection.each(function(index) {
+        	 if ($(this).position().top <= windscroll) {
+                $(this).addClass('active-section');
+            }
+        });
+    }
 
-		if (winTop == elTopSection) {
-			console.log('si');	
-		}
-		
-	}
+    var goTo = function(e) {
+        var cTarget = $(e.currentTarget),
+            htmlbody = $('html, body'),
+            targetName = cTarget.data('ref'),
+            targetId = $('#' + targetName);
 
-	return {
-		goTo: goTo,
-		top: topSection
-	}
+        e.preventDefault();
+
+        htmlbody.animate({
+            scrollTop: targetId.offset().top
+        }, 1000);
+    }
+
+    return {
+        init: initialize,
+        goTo: goTo,
+        scrollSection: scrollSection
+    }
 });

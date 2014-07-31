@@ -3555,9 +3555,6 @@ a:hover {
   padding: 3% 6%;
   border-radius: 0;
   font-family: open_sansbold, Arial, Helvetica, sans-serif;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.61) 0px 1px 1px 0px, rgba(0, 0, 0, 0.61) 0px 1px 2px 0px;
-  -moz-box-shadow: rgba(0, 0, 0, 0.61) 0px 1px 1px 0px, rgba(0, 0, 0, 0.61) 0px 1px 2px 0px;
-  box-shadow: rgba(0, 0, 0, 0.61) 0px 1px 1px 0px, rgba(0, 0, 0, 0.61) 0px 1px 2px 0px;
   font-size: 16px;
   font-size: 1.6rem;
   -webkit-transition-property: all;
@@ -3575,9 +3572,6 @@ a:hover {
 }
 .btn:hover {
   padding: 3% 8% 3% 4%;
-  -webkit-box-shadow: 0px 4px 10px 0 rgba(0, 0, 0, 0.61), 0px 2px 10px 0px rgba(0, 0, 0, 0.61);
-  -moz-box-shadow: 0px 4px 10px 0 rgba(0, 0, 0, 0.61), 0px 2px 10px 0px rgba(0, 0, 0, 0.61);
-  box-shadow: 0px 4px 10px 0 rgba(0, 0, 0, 0.61), 0px 2px 10px 0px rgba(0, 0, 0, 0.61);
 }
 .btn:hover .arrow {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
@@ -3826,25 +3820,6 @@ section .content-title.red-title p {
   -o-border-radius: 50%;
   border-radius: 50%;
 }
-.content-profile-img.active {
-  -webkit-transform: scale(1, 1);
-  -moz-transform: scale(1, 1);
-  -ms-transform: scale(1, 1);
-  -o-transform: scale(1, 1);
-  transform: scale(1, 1);
-  -webkit-transition-property: all;
-  -moz-transition-property: all;
-  -o-transition-property: all;
-  transition-property: all;
-  -webkit-transition-duration: 0.5s;
-  -moz-transition-duration: 0.5s;
-  -o-transition-duration: 0.5s;
-  transition-duration: 0.5s;
-  -webkit-transition-timing-function: ease-in;
-  -moz-transition-timing-function: ease-in;
-  -o-transition-timing-function: ease-in;
-  transition-timing-function: ease-in;
-}
 
 .content-skill {
   margin-bottom: 50px;
@@ -4061,4 +4036,24 @@ section .content-title.red-title p {
 #social {
   padding: 50px 0;
   background-color: #00bdbd;
+}
+
+.section-top.active-section .content-profile-img {
+  -webkit-transform: scale(1, 1);
+  -moz-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  -o-transform: scale(1, 1);
+  transform: scale(1, 1);
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-in;
+  -moz-transition-timing-function: ease-in;
+  -o-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
 }
