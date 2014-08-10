@@ -3806,6 +3806,8 @@ section .content-title.red-title p {
 }
 
 .content-profile-img {
+  position: relative;
+  overflow: hidden;
   width: 294px;
   height: 294px;
   -webkit-transform: scale(0);
@@ -3819,6 +3821,17 @@ section .content-title.red-title p {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   border-radius: 50%;
+}
+.content-profile-img img {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .content-skill {

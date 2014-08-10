@@ -4,116 +4,112 @@
 		"selected_items":
 		[
 			[
-				"scr",
-				"scrollSections"
+				"pos",
+				"pos:r	position:relative"
 			],
 			[
-				"wi",
-				"winTop"
+				"for",
+				"for	for (…) {…}"
 			],
 			[
-				"sc",
-				"scrollTop	.scrollTop()"
+				"pro",
+				"progressBar()	technicalskills.js"
 			],
 			[
-				"top",
-				"topSection"
-			],
-			[
-				"fun",
-				"function"
-			],
-			[
-				"off",
-				"offset	.offset"
-			],
-			[
-				"tar",
-				"targetId"
-			],
-			[
-				"data",
-				"dataAttr"
-			],
-			[
-				"scro",
-				"scrollTop	.scrollTop()"
-			],
-			[
-				"html",
-				"htmlbody"
-			],
-			[
-				"nav",
-				"navigation"
-			],
-			[
-				"blue-da",
-				"blue-dark"
+				"med",
+				"medium"
 			],
 			[
 				"mar",
-				"margin-top"
-			],
-			[
-				"padd",
-				"padding-top"
-			],
-			[
-				"font",
-				"font-size"
-			],
-			[
-				"w",
-				"width"
-			],
-			[
-				"fonta",
-				"font-family-bold"
-			],
-			[
-				"le",
-				"left"
-			],
-			[
-				"pos",
-				"pos:a	position:absolute"
-			],
-			[
-				"content",
-				"content-item"
-			],
-			[
-				"tran",
-				"transform"
-			],
-			[
-				"ma",
 				"margin"
 			],
 			[
-				"text",
-				"text-align"
+				"border",
+				"border"
 			],
 			[
-				"boir",
-				"border-radius"
+				"transpa",
+				"transparent"
+			],
+			[
+				"trans",
+				"transform"
+			],
+			[
+				"tra",
+				"transition-timing-function"
+			],
+			[
+				"tran",
+				"transition-duration"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"trasit",
+				"transition-property"
 			],
 			[
 				"red",
 				"red-light"
 			],
 			[
+				"po",
+				"pos:a	position:absolute"
+			],
+			[
+				"transi",
+				"transition-duration"
+			],
+			[
+				"re",
+				"red-light"
+			],
+			[
+				"ri",
+				"rig	right"
+			],
+			[
+				"opac",
+				"opacity	opacity()"
+			],
+			[
+				"opa",
+				"opacity	opacity()"
+			],
+			[
+				"ea",
+				"ease-in"
+			],
+			[
+				"text",
+				"text-indent"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"green",
+				"green-light"
+			],
+			[
 				"bl",
 				"blue	blue()"
 			],
 			[
-				"ce",
-				"center"
+				"ma",
+				"margin-bottom"
 			],
 			[
-				"border",
-				"border-radius"
+				"font",
+				"font-size"
+			],
+			[
+				"ce",
+				"center"
 			],
 			[
 				"fon",
@@ -132,8 +128,8 @@
 				"inline-block"
 			],
 			[
-				"po",
-				"pos:r	position:relative"
+				"padd",
+				"padding"
 			],
 			[
 				"tras",
@@ -142,10 +138,6 @@
 			[
 				"min",
 				"min-height"
-			],
-			[
-				"bac",
-				"background-color"
 			]
 		]
 	},
@@ -155,7 +147,23 @@
 			"file": "site/index.html",
 			"settings":
 			{
-				"buffer_size": 18456,
+				"buffer_size": 18690,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "site/sass/config.sass",
+			"settings":
+			{
+				"buffer_size": 1857,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "site/sass/screen.sass",
+			"settings":
+			{
+				"buffer_size": 6217,
 				"line_ending": "Windows"
 			}
 		},
@@ -163,15 +171,15 @@
 			"file": "site/scripts/app/main.js",
 			"settings":
 			{
-				"buffer_size": 551,
+				"buffer_size": 259,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "site/scripts/config.js",
+			"file": "site/scripts/app/technicalSkills.js",
 			"settings":
 			{
-				"buffer_size": 270,
+				"buffer_size": 851,
 				"line_ending": "Windows"
 			}
 		},
@@ -179,7 +187,7 @@
 			"file": "site/scripts/app/navigation.js",
 			"settings":
 			{
-				"buffer_size": 517,
+				"buffer_size": 1031,
 				"line_ending": "Windows"
 			}
 		}
@@ -187,7 +195,7 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 375.0,
+		"height": 469.0,
 		"selected_items":
 		[
 			[
@@ -207,7 +215,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 410.0
+		"width": 564.0
 	},
 	"console":
 	{
@@ -228,38 +236,24 @@
 	},
 	"file_history":
 	[
-		"/C/Users/jose.ocampo/Projects/Portfolio/site/scripts/config.js",
-		"/C/Users/jose.ocampo/Documents/GitHub/jQuery.scrollSections/example/js/plugins.js",
-		"/C/Users/jose.ocampo/Documents/GitHub/jQuery.scrollSections/example/css/style.css",
-		"/C/Users/jose.ocampo/Projects/Portfolio/site/scripts/main.js",
-		"/C/Users/jose.ocampo/Projects/Portfolio/site/scripts/lib/domReady.js",
-		"/C/Users/jose.ocampo/Projects/Portfolio/site/sass/screen.sass",
-		"/C/Users/jose.ocampo/Projects/Portfolio/site/sass/config.sass",
-		"/C/Users/jose.ocampo/Projects/Portfolio/site/scripts/app/main.js",
-		"/C/Users/jose.ocampo/Projects/Portfolio/site/scripts/app/navigation.js",
-		"/C/Users/jose.ocampo/Projects/Portfolio/site/scripts/app.js",
-		"/C/wamp/www/socialLearning/app/js/main.js",
-		"/C/wamp/www/socialLearning/app/js/app.js",
-		"/C/wamp/www/socialLearning/app/js/views/ApprovalPage.js",
-		"/C/wamp/www/socialLearning/app/js/channel.js",
-		"/C/wamp/www/socialLearning/app/require.js",
-		"/C/wamp/www/socialLearning/package.json",
-		"/C/Users/jose.ocampo/Projects/Portfolio/site/sass/bootstrap-custom.sass",
-		"/C/Users/jose.ocampo/Projects/Portfolio/site/app.js",
-		"/C/Users/jose.ocampo/Projects/Portfolio/site/bower.json",
-		"/C/Users/jose.ocampo/Projects/Portfolio/site/scripts/lib/require.js",
+		"/C/Users/JDavid/Projects/portfolio/site/scripts/app/navigation.js",
+		"/C/Users/JDavid/Projects/portfolio/site/config.rb",
+		"/C/Users/JDavid/Projects/portfolio/site/scripts/main.js",
+		"/C/Users/JDavid/Projects/portfolio/site/scripts/app/app.js",
+		"/C/Users/JDavid/Documents/Wordpress/Blank template/html5blank-stable/index.php",
+		"/C/Users/JDavid/Projects/portfolio/site/scripts/lib/jquery.min.js",
+		"/C/Users/JDavid/Projects/portfolio/site/sass/bootstrap-custom.sass",
+		"/C/Users/JDavid/Projects/portfolio/site/styles/screen.css",
+		"/C/Users/JDavid/AppData/Roaming/Sublime Text 3/Packages/User/SassBeautify.sublime-settings",
+		"/C/Users/JDavid/AppData/Roaming/Sublime Text 3/Packages/SassBeautify/SassBeautify.sublime-settings",
+		"/C/Users/JDavid/Projects/portfolio/project-portfolio.sublime-project",
 		"/C/Users/jose.ocampo/Projects/Portfolio/site/config.rb",
-		"/C/Users/jose.ocampo/AppData/Roaming/Sublime Text 3/Packages/LiveStyle/LiveStyle.sublime-settings",
-		"/C/Users/jose.ocampo/Projects/Portfolio/site/sass/fonts.sass",
-		"/C/Users/jose.ocampo/Projects/Portfolio/site/other.html",
-		"/C/Users/jose.ocampo/AppData/Roaming/Sublime Text 3/Packages/User/SassBeautify.sublime-settings",
-		"/C/Users/jose.ocampo/AppData/Roaming/Sublime Text 3/Packages/SassBeautify/SassBeautify.sublime-settings",
-		"/C/Users/jose.ocampo/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
-		"/C/Users/jose.ocampo/Projects/Portfolio/site/styles/screen.css",
-		"/C/Users/jose.ocampo/Projects/Portfolio/site/styles/config.css",
-		"/C/Users/jose.ocampo/Projects/Portfolio/site/styles/bootstrap-custom.css",
 		"/C/Users/jose.ocampo/AppData/Roaming/Sublime Text 3/Packages/Tag/Tag Package.sublime-settings",
+		"/C/Users/jose.ocampo/AppData/Roaming/Sublime Text 3/Packages/User/SassBeautify.sublime-settings",
 		"/C/Users/jose.ocampo/Projects/Portfolio/site/sass/print.sass",
+		"/C/Users/jose.ocampo/Projects/Portfolio/site/sass/fonts.sass",
+		"/C/Users/jose.ocampo/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/jose.ocampo/AppData/Roaming/Sublime Text 3/Packages/SassBeautify/SassBeautify.sublime-settings",
 		"/C/Users/jose.ocampo/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
 		"/C/Users/jose.ocampo/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
 		"/C/Users/jose.ocampo/Projects/Portfolio/site/sass/fonts.scss",
@@ -328,7 +322,7 @@
 	],
 	"find":
 	{
-		"height": 36.0
+		"height": 46.0
 	},
 	"find_in_files":
 	{
@@ -343,8 +337,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"1px solid #dedddd\n			.content-description\n				backgroun",
-			"&",
+			"$backColor",
+			"backColor",
+			"$overlayColor",
+			"$barColor",
 			"474d5d",
 			"media",
 			"chevron-container",
@@ -377,6 +373,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"#e1e1e3",
+			"$body-bg",
+			"$red-light",
 			"",
 			"http://mockups.raidkillsbugs.com/Images/Icons/question-expand-icon.png",
 			"http://mockups.raidkillsbugs.com/Images/Content/tip.png",
@@ -392,7 +391,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -401,108 +400,182 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 18456,
+						"buffer_size": 18690,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2738,
-								2738
+								4429,
+								4429
 							]
 						],
 						"settings":
 						{
+							"incomplete_sync": null,
 							"is_xml": false,
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 525.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "site/scripts/app/main.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 551,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								550,
-								550
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "site/scripts/config.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 270,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								227,
-								227
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1002.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "site/scripts/app/navigation.js",
+					"buffer": 1,
+					"file": "site/sass/config.sass",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 517,
+						"buffer_size": 1857,
 						"regions":
 						{
 						},
 						"selection":
 						[
+							[
+								1296,
+								1296
+							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"incomplete_sync": null,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 984.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "site/sass/screen.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6217,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2764,
+								2764
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2963.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "site/scripts/app/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 259,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								245,
+								245
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Better JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "site/scripts/app/technicalSkills.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 851,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								729,
+								729
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/Better JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "site/scripts/app/navigation.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1031,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Better JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -547,10 +620,14 @@
 	{
 		"height": 0.0
 	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
 	"project": "project-portfolio.sublime-project",
 	"replace":
 	{
-		"height": 40.0
+		"height": 83.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -563,11 +640,11 @@
 	},
 	"select_project":
 	{
-		"height": 500.0,
+		"height": 0.0,
 		"selected_items":
 		[
 		],
-		"width": 380.0
+		"width": 0.0
 	},
 	"select_symbol":
 	{
@@ -584,7 +661,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 321.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

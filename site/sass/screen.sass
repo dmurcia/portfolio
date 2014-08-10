@@ -170,10 +170,18 @@ section
 		+font-size(18)
 
 .content-profile-img
+	position: relative
+	overflow: hidden
 	+size(294px, 294px)
 	+transform(scale(0))
 	background-color: $blue-dark
 	+border-radius(50%)
+	img
+		display: block
+		position: absolute
+		top: 50%
+		left: 50%
+		+transform(translate(-50%, -50%))
 
 // SECTION: TECHNICAL SKILLS
 .content-skill
