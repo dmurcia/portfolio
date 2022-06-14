@@ -1,0 +1,28 @@
+// BOOTSTRAP VARIABLES
+:root {
+  --bs-body-bg: #1C1C1C;
+  // TYPOGRAPHY
+  --bs-font-sans-serif: 'Poppins', "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  // COLORS VARIABLES
+  --bs-yellow: #ffc107;
+  --bs-body-color: #F1F1F1;
+  // BORDERS
+  --bs-border-radius: 0.45rem;
+}
+
+// MIXINS
+
+@mixin font-size($sizeValue: 12) {
+  font-size: $sizeValue + px;
+  font-size: 0.1 * $sizeValue + rem;
+}
+
+@mixin line-height($sizeValue: 12) {
+  line-height: $sizeValue + px;
+  line-height: 0.1 * $sizeValue + rem;
+}
+
+@mixin size($width, $height) {
+  width: $width;
+  height: $height;
+}
